@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style_listings.css">
+    <link rel="shortcut icon" href="img/favicon_cinema-vip.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sansita&display=swap">
+    <title>Cartelera</title>
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <!-- Aquí comienza la barra de navegación -->
+            <nav class="nave">
+                <div><a href="index.html"><img class="logovip" src="img/logo_cinema-VIP.png" alt="logo_cinema-VIP">
+                </div></a>
+                <ul>
+                    <li> <a href="index.html">Home</a>
+                        <ul>
+                            <li> <a href="#">Estrenos</a></li>
+                            <li> <a href="#">Eventos</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="listings.html">Cartelera</a>
+                        <ul>
+                            <li> <a href="joker.html">Guasón</a></li>
+                            <li> <a href="los_silencios.html">Los Silencios</a></li>
+                            <li> <a href="gente.html">Qué dirá la gente?</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="comming_soon.html">Coming Soon</a></li>
+                    <li> <a href="about_us.html">Nosotros</a></li>
+                    <li> <a href="find_us.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section>
+            <nav>
+                <div id="menuA">
+                    <div href="#" class="showhim"> <span class="menumov"> <img src="img/down.png" alt="" width="30px"
+                                height="20px"> <img src="img/logo_cinema-VIP.png" alt="logo_cinema-VIP" width="18%">
+                        </span>
+                        <div class="showme">
+                            <li> <a href="">Home</a></li>
+                            <li> <a href="">Cartelera</a></li>
+                            <li> <a href="#">Coming Soon</a></li>
+                            <li> <a href="#">Nosotros</a></li>
+                            <li> <a href="#">Contacto</a></li>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div class="now_playing">
+                <div class="movies_container">
+                    <div class="opening">EN CARTELERA</div>
+                    <div class="movie1 caja"><img src="img/joker.jpg" alt="joker" class="boximg"></div>
+                    <div class="movie2 caja"><img src="img/lluvioso.jpg" alt="lluvioso" class="boximg"></div>
+                    <div class="movie3 caja"><img src="img/les_garcons.png" alt="les_garcons" class="boximg"></div>
+                    <div class="movie4 caja"><img src="img/los-dias-de-la-ballena.png" alt="dias_ballena" class="boximg"></div>
+                    <div class="movie5 caja"><img src="img/que-dira-la-gente.png" alt="gente" class="boximg"></div>
+                    <div class="movie6 caja"><img src="img/los-silencios.png" alt="los_siencios" class="boximg"></div>
+
+                    <!-- Esto es para el hover y el botón de play -->
+
+                    <div class="back1 box2 hover_play">
+                        <div><img id="myBtn" value="cero" src="img/icon-neon.png" alt=""></div>
+                        <div><button alt="" class="hide"><a href="joker.html">VER MÁS</a></button></div>
+                    </div><br>
+
+                    <!------------MODAL-------------->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <!-- <h2>Modal Header</h2> -->
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="80%" height="280px" src="https://www.youtube.com/embed/-qqXbdAFcZU"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                            </div>
+                            <!--  <div class="modal-footer">
+                            <h3>Modal Footer</h3>
+                        </div> -->
+                        </div>
+                    </div>
+
+
+                    <div class="back2 box2 hover_play">
+                        <div><img id="myBtn2" src="img/icon-neon.png" alt=""></div>
+                        <div><button alt="" class="hide"><a href="lluvioso.html">VER MÁS</a></button></div>
+
+
+                        <!------------MODAL-------------->
+                        <div id="myModal2" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close">&times;</span>
+                                    <!-- <h2>Modal Header</h2> -->
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="80%" height="280" src="https://www.youtube.com/embed/yg55epoWyXk"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <!--  <div class="modal-footer">
+                                <h3>Modal Footer</h3>
+                            </div> -->
+                            </div>
+                        </div>
+                    </div><br>
+
+
+                    <div class="back3 box2 hover_play">
+                        <div><img id="myBtn3" src="img/icon-neon.png" alt=""></div>
+                        <div><button alt="" class="hide"><a href="les_garcons.html">VER MÁS</a></button></div>
+
+                        <!------------MODAL-------------->
+                        <div id="myModal3" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close">&times;</span>
+                                    <!-- <h2>Modal Header</h2> -->
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="80%" height="280" src="https://www.youtube.com/embed/2m6sbYsTG1I"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <!--  <div class="modal-footer">
+                            <h3>Modal Footer</h3>
+                        </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="back4 box2 hover_play">
+                        <div><img id="myBtn4" src="img/icon-neon.png" alt=""></div>
+                        <div><button alt="" class="hide"><a href="dias_ballena.html">VER MÁS</a></button></div>
+
+                        <!------------MODAL-------------->
+                        <div id="myModal4" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close">&times;</span>
+                                    <!-- <h2>Modal Header</h2> -->
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="80%" height="280" src="https://www.youtube.com/embed/Wforu22qzSk"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <!--  <div class="modal-footer">
+                                <h3>Modal Footer</h3>
+                            </div> -->
+                            </div>
+                        </div>
+                    </div><br>
+
+                    <div class="back5 box2 hover_play">
+                        <div><img id="myBtn5" src="img/icon-neon.png" alt=""></div>
+                        <div><button alt="" class="hide"><a href="gente.html">VER MÁS</a></button></div>
+
+                        <!------------MODAL-------------->
+                        <div id="myModal5" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close">&times;</span>
+                                    <!-- <h2>Modal Header</h2> -->
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="80%" height="280" src="https://www.youtube.com/embed/-yjpm0aGrNo"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <!--  <div class="modal-footer">
+                            <h3>Modal Footer</h3>
+                        </div> -->
+                            </div>
+                        </div>
+                    </div><br>
+
+                    <div class="back6 box2 hover_play">
+                        <div><img id="myBtn6" src="img/icon-neon.png" alt=""></div>
+                        <div><button alt="" class="hide"><a href="los_silencios.html">VER MÁS</a></button></div>
+
+
+                        <!------------MODAL-------------->
+                        <div id="myModal6" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close">&times;</span>
+                                    <!-- <h2>Modal Header</h2> -->
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="80%" height="280" src="https://www.youtube.com/embed/6S53m1PQdzc"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <!--  <div class="modal-footer">
+                                <h3>Modal Footer</h3>
+                            </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Finaliza el hover y el botón de play -->
+
+                    <div class="textmovie1 box3">
+                        <p class="movieTitle">GUASÓN (JOKER)</p>
+                        <p class="director">Todd Phillips / USA </p>
+                        <p class="type">THRILLER</p>
+                        <p class="schedule"> 03:00 p.m. | 07:00 p.m. | 09:00 p.m.</p>
+                        <br>
+                        <a href="joker.html" target="_blank"><button class="buy">Reservar</button></a>
+                    </div>
+
+                    <div class="textmovie2 box3">
+                        <p class="movieTitle">UN DÍA LLUVIOSO</p>
+                        <p class="director">Woody Allen / Estados Unidos </p>
+                        <p class="type">COMEDIA</p>
+                        <p class="schedule"> 04:00 p.m. | 06:00 p.m. | 08:00 p.m.</p>
+                        <br>
+                        <a href="lluvioso.html" target="_blank"><button class="buy">Reservar</button></a>
+                    </div>
+
+                    <div class="textmovie3 box3">
+                        <p class="movieTitle">THE WILD BOYS</p>
+                        <p class="director">Bertrand Mandico / Francia </p>
+                        <p class="type">AVENTURA </p>
+                        <p class="schedule"> 05:30 p.m. | 08:00 p.m. | 10:30 p.m.</p>
+                        <br>
+                        <a href="les_garcons.html" target="_blank"><button class="buy">Reservar</button></a>
+                    </div>
+
+                    <div class="textmovie4 box3">
+                        <p class="movieTitle">DÍAS DE LA BALLENA</p>
+                        <p class="director">Catalina Arroyave / Colombia </p>
+                        <p class="type">DRAMA</p>
+                        <p class="schedule"> 04:15 p.m. | 07:15 p.m. | 10:15 p.m.</p>
+                        <br>
+                        <a href="dias_ballena.html" target="_blank"><button class="buy">Reservar</button></a>
+                    </div>
+
+                    <div class="textmovie5 box3">
+                        <p class="movieTitle">¿QUÉ DIRÁ LA GENTE?</p>
+                        <p class="director">Iram Haq / Noruega – Alemania – Francia </p>
+                        <p class="type">DRAMA</p class="type">
+                        <p class="schedule"> 02:30 p.m. | 05:15 p.m. | 08:00 p.m.</p>
+                        <br>
+                        <a href="gente.html" target="_blank"><button class="buy">Reservar</button></a>
+                    </div>
+
+                    <div class="textmovie6 box3">
+                        <p class="movieTitle">LOS SILENCIOS</p>
+                        <p class="director">Beatriz Seigner / Colombia – Brasil – Francia </p>
+                        <p class="type">DRAMA</p>
+                        <p class="schedule"> 06:15 p.m. | 09:30 p.m. | 11:15 p.m.</p>
+                        <br>
+                        <a href="los_silencios.html" target="_blank"><button class="buy">Reservar</button></a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="insidefoo1">
+                <div>
+                    <ul>
+                        <li> <a href="#">About us</a></li>
+                        <li> <a href="#">Find us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="insidefoo2">
+                <h4>VIP CINEMA | The best cinema in Bogotá, DC | Cra 18 A # 103 - 11 | Santa Bibiana</h4>
+                <p>Follow us</p>
+                <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt=""
+                        class="socialm"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt=""
+                        class="socialm"></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><img src="img/twitter.png" alt=""
+                        class="socialm"></a>
+                <a href="https://www.whatsapp.com/" target="_blank"><img src="img/whatsapp.png" alt=""
+                        class="socialm"></a>
+                <br>
+                <sub>Todos los derechos reservados &copy;</sub>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script_listings.js"></script>
+</body>
+
+</html>
