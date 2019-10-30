@@ -321,20 +321,20 @@ nav li ul {
 }
 
 button.buy {
-    background-color: #C1006F;
+    background-color: rgba(181, 246, 255, 0.479);
     font-weight: bold;
     border-radius: 30px;
     border-style: solid;
-    border-color: #ffffff;
-    color: rgb(255, 255, 255);
+    border-color: #770177;
+    color: rgb(87, 87, 87);
     padding: 7px;
 }
 
 button.buy:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(92, 0, 72);
     border-radius: 80px;
     border-style: solid;
-    color: #463AB5;
+    color: rgb(255, 255, 255);
     border-color: #C1006F;
     padding: 7px;
 }
