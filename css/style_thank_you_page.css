@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+    /* la imagen a ser mostrada a pantalla completa */
+    background:url('../img/wall-2059909__340.png') no-repeat center center;
+ 
+    /* nos aseguramos que el elemento ocupe toda la ventana del navegador */
+    min-height:100%;
+ 
+    /* Propiedad a utilizar para la imagen */
+    background-size:cover;
+}
+
+.info_thankyou{
+    padding-top: 95px;
+    padding-bottom: 500px;
+}
+.opening1{
+    text-align: center;
+  
+    font-family: 'Bungee Inline', cursive;
+    color: #e6e6ed;
+    font-size: 400%;
+    margin-top: 0px;
+    margin-bottom: -20px;
+
+}
+.txt1{
+    text-align: center;
+    font-family: 'Sansita', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: -5px;
+
+}
+

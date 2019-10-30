@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.father_movie {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-image: url(../img/wall-2059909__340.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Sansita', sans-serif;
+    color: #e6e6ed;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.container_movie {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 15px;
+    position: relative;
+}
+
+.Menu {
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 100%;
+    height: 40px;
+    border-bottom: solid #e6e6ed69;
+    margin-top: 95px;
+    /* border: 0px 0px 1px 0px solid white; */
+}
+
+.breadcrumbs ul {
+    list-style: none;
+}
+
+.breadcrumbs ul li {
+    float: left;
+    /* clear:both; con esta linea mis elementos dejan de flotar */
+    font-size: 14px;
+    padding: 5px;
+    font-family: 'Sansita', sans-serif;
+    font-size: 100%;
+}
+
+.breadcrumbs ul li a {
+    text-decoration: none;
+    color: #e6e6ed;
+    font-family: 'Sansita', sans-serif;
+    font-size: 100%;
+}
+
+.breadcrumbs ul li p {
+    text-decoration: none;
+    color: #e6e6ed;
+    font-family: 'Sansita', sans-serif;
+    font-size: 100%;
+}
+
+.breadcrumbs ul li h2 {
+    font-family: 'Sansita', sans-serif;
+    font-size: 100%;
+    color: rgb(0, 132, 255);
+}
+
+.breadcrumbs ul li a:hover {
+    color: rgb(0, 132, 255);
+}
+
+.basic-info{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 28px;
+}
+
+.basic-info ul {
+    list-style: none;
+}
+
+.basic-info ul li {
+    float: left;
+    /* clear:both; con esta linea mis elementos dejan de flotar */
+    font-size: 14px;
+    padding: 5px;
+    font-family: 'Sansita', sans-serif;
+    font-size: 100%;
+}
+
+.basic-info ul li a {
+    text-decoration: none;
+    color: #e6e6ed;
+    font-family: 'Sansita', sans-serif;
+    font-size: 100%;
+}
+
+.basic-info ul li p {
+    text-decoration: none;
+    color: #e6e6ed;
+    font-family: 'Sansita', sans-serif;
+    font-size: 100%;
+}
+
+.basic-info ul li h2 {
+    font-family: 'Sansita', sans-serif;
+    font-size: 100%;
+    color: rgb(0, 132, 255);
+}
+
+
+.contenedor {
+    margin-top: 1%;
+    width: 100%;
+    display: grid;
+    /*  esta opcion es para colocar las cuadriculas*/
+    grid-template-columns: 70% 28%;
+    /*  es para dividir columnas se puede em */
+    grid-template-rows: repeat(1, 1fr);
+    /* es para divir en filas  */
+    grid-gap: 40px;
+}
+
+.Info_pelicula {
+    overflow: hidden;
+    grid-column: 1/2;
+    grid-row: 1/1;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 200%;
+}
+
+.Descripcion_peli {
+    padding-top: 40px;
+}
+
+.Valor_funciones {
+    padding-top: 40px;
+}
+
+.Valor_funciones ul li span {
+    font-family: 'Sansita', sans-serif;
+    font-size: 100%;
+    color: rgb(0, 132, 255);
+}
+
+.form_reserva {
+    padding: 10px;
+    overflow: hidden;
+    grid-column: 2/3;
+    grid-row: 1/1;
+    background: rgba(148, 131, 131, 0.397);
+    height: 100%;
+    width: 100%;
+    margin-top: 95px;
+}
+
+.Titulos_reserva {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Detalles_reserva {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.backgroundForm {
+    padding-top: 10px;
+    width: 80%;
+    padding: 16px;
+}
+
+form {
+    width: 100%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+form input[type="text"], form input[type="tel"], form input[type="email"], form input[type="date"], form input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    background: #f6f6f6;
+    color: rgb(47, 45, 45);
+    margin-bottom: 3px;
+}
+
+form input[type="checkbox"] {
+    display: inline-block;
+    text-align: justify;
+    font-family: 'Bungee Inline', cursive;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #00AAFF;
+    margin-bottom: 3px;
+}
+
+form input[type="submit"]:hover {
+    background: rgb(0, 217, 255);
+}
+
+.privacy {
+    width: 100%;
+    display: inline-block;
+}
+
+@media screen and (max-width:750px) {
+    /*para el resposive */
+    .container {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .contenedor {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    /* form{
+            width: 30px;
+    
+         } */
+    .form_reserva {
+        padding: 10px;
+        overflow: hidden;
+        grid-column: 1/1;
+        grid-row: 2/3;
+        background: rgba(148, 131, 131, 0.397);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .backgroundForm {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .Titulos_reserva {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+}

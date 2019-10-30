@@ -1,0 +1,47 @@
+body {
+    background-image: url(../img/wall-2059909__340.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fondo {
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 90%;
+    border: rgba(0, 0, 0, 0.493);
+    margin: auto;
+    padding: 15px;
+}
+
+.img_logo {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.us {
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+.about h3 {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-family: 'Share', cursive;
+    font-size: 1.5em;
+    text-align: justify;
+}
